@@ -22,32 +22,34 @@ This project don't use any plugin but SQLite3. Which means that Plugins folder o
 
 ## Interface explanation
 The application has one main screen, that shows some system information and some SQLite functions.
-<center>
-<img src="imgs/landscape-loading.png" width="500" />
-<p>Figure 1. Application scene at first moment (Linux).</p>
-</center>
+<p align="center">
+  <img src="imgs/landscape-loading.png" width="500" />
+  <p>Figure 1. Application scene at first moment (Linux).</p>
+</p>
 
 When runnig the application you probaly won't see the screen as show Figure 1. Once the application starts, it will shows all colected data and informations. Then you will probaly see the screen as show Figure 2.
-<center>
-<img src="imgs/landscape-results.png" width="500" />
-<p>Figure 2. Application scene after data loading (Linux).</p>
-</center>
+<p align="center">
+  <img src="imgs/landscape-results.png" width="500" />
+  <p>Figure 2. Application scene after data loading (Linux).</p>
+</p>
 
 Of course, you can get an error, as shows Figure 3b.
-<div style="display: flex; justify-content: space-between; width: 450px">
-<div>
-<center>
-<img src="imgs/android-success.jpeg" width="200" />
-<p>Figure 3a. SQLite success (Android).</p>
-</center>
-</div>
-<div>
-<center>
-<img src="imgs/android-fail.jpeg" width="200" />
-<p>Figure 3b. SQLite fail (Android).</p>
-</center>
-</div>
-</div>
+<p align="center">
+  <div style="display: flex; justify-content: space-between; width: 450px">
+    <div>
+      <p align="center">
+        <img src="imgs/android-success.jpeg" width="200" />
+        <p>Figure 3a. SQLite success (Android).</p>
+      </p>
+    </div>
+    <div>
+      <p align="center">
+        <img src="imgs/android-fail.jpeg" width="200" />
+        <p>Figure 3b. SQLite fail (Android).</p>
+      </p>
+    </div>
+  </div>
+</p>
 
 ### States explanation
 - **waiting** - The application is waiting for data
