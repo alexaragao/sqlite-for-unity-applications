@@ -24,29 +24,29 @@ This project don't use any plugin but SQLite3. Which means that Plugins folder o
 The application has one main screen, that shows some system information and some SQLite functions.
 <p align="center">
   <img src="imgs/landscape-loading.png" width="500" />
-  <p>Figure 1. Application scene at first moment (Linux).</p>
 </p>
+<p align="center">Figure 1. Application scene at first moment (Linux).</p>
 
 When runnig the application you probaly won't see the screen as show Figure 1. Once the application starts, it will shows all colected data and informations. Then you will probaly see the screen as show Figure 2.
 <p align="center">
   <img src="imgs/landscape-results.png" width="500" />
-  <p>Figure 2. Application scene after data loading (Linux).</p>
 </p>
+<p align="center">Figure 2. Application scene after data loading (Linux).</p>
 
 Of course, you can get an error, as shows Figure 3b.
-<p align="center">
-  <div style="display: flex; justify-content: space-between; width: 450px">
+<p align="center" style="width: 450px">
+  <div style="display: flex; justify-content: space-between">
     <div>
       <p align="center">
         <img src="imgs/android-success.jpeg" width="200" />
-        <p>Figure 3a. SQLite success (Android).</p>
       </p>
+      <p align="center">Figure 3a. SQLite success (Android).</p>
     </div>
     <div>
       <p align="center">
         <img src="imgs/android-fail.jpeg" width="200" />
-        <p>Figure 3b. SQLite fail (Android).</p>
       </p>
+      <p align="center">Figure 3b. SQLite fail (Android).</p>
     </div>
   </div>
 </p>
