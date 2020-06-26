@@ -43,18 +43,4 @@ public class SQLite {
     dbcmd.CommandText = sql;
     dbcmd.ExecuteNonQuery ();
   }
-
-  public static string Recuperar () {
-    string sqlQuery = "SELECT name, score FROM highscores";
-    dbcmd.CommandText = sqlQuery;
-    reader = dbcmd.ExecuteReader ();
-    while (reader.Read ()) {
-      string name = reader.GetString (0);
-      int score = reader.GetInt32 (1);
-      reader.Close ();
-      return ("value = name = " + name + " score = " + score);
-    }
-    reader.Close ();
-    return null;
-  }
 }
