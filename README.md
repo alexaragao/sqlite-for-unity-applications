@@ -3,7 +3,7 @@
 ### by: Alexandre Aragão
 
 ## Project Information
-A simple unity project that intenst to test SQLite3 in unity-compatible platforms. This project was developed in Unity **2019.3.10f**.
+A simple unity project that aims to test SQLite3 in unity-compatible platforms. This project was developed in Unity **2019.3.10f**.
 
 ### Usage
 Well, there is no real usage of this project. But it is useful for check platforms support of SQLite3. For use, just clone the project and open it with unity.
